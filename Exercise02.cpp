@@ -5,6 +5,7 @@ using namespace std;
 int main() {
   
    // 1. Create a Box type object called box1
+  Box box1;
   
   
    // ======= DO NOT CHANGE THE INPUT ===========
@@ -16,8 +17,11 @@ int main() {
    cout << "Enter the width of the Box : ";
    cin >> width;
    // ===========================================
-  
+  box1.setLength(length);
+  box1.setWidth(width);
+  box1.setHeight(height);
    // 2. Use setters assign height, length, width throw
+  
   
    // === DO NOT CHANGE THE OUTPUT =============
    cout << "Box Height " << box1.getHeight() << endl;
